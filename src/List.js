@@ -36,11 +36,13 @@ class List extends React.Component{
     handleSubmit(e){
         e.preventDefault();
         let newItem = this.state.inputValue;
-        let newItemList = [...this.state.itemList,newItem];
-        this.setState({
-            itemList: newItemList,
-            inputValue: ''
-        });
+        if(newItem.trim()){
+            let newItemList = [...this.state.itemList,newItem];
+            this.setState({
+                itemList: newItemList,
+                inputValue: ''
+            });
+        }
     }
 
     handleInputValueChange(e){
