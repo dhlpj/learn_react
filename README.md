@@ -1,3 +1,5 @@
+##I have changed some default configuration and maintain a list in this project. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
