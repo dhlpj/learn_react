@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+}
+.item>.deleteBtn{
+    float: right;
+    font-size: 15px;
+    text-align: right;
+    cursor: pointer;
+}
